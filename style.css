@@ -23,3 +23,6 @@ body{overflow-x:hidden}
 .edu-card{display:flex;gap:18px;align-items:flex-start;padding:26px;border:1px solid var(--line);border-radius:15px;background:linear-gradient(145deg,#0d121a,#0a0d13)}
 .edu-icon{font-size:25px}.edu-card h3{margin:0 0 8px;font-size:18px}.edu-card p{margin:0 0 8px;color:#c1cad7;font-size:13px}.edu-card span{color:var(--muted);font-size:12px}
 @media(max-width:850px){.edu-grid{grid-template-columns:1fr}}
+
+.job-content{min-width:0}.job-list{margin:18px 0 0;padding-left:20px;color:var(--muted);font-size:13px}.job-list li{margin:0 0 10px;padding-left:4px}.job-list li::marker{color:#8d7cff}.job-list li:last-child{margin-bottom:0}.job-content .chips{margin-top:20px}
+@media(max-width:850px){.job-list{font-size:13px}.job-list li{margin-bottom:9px}}
