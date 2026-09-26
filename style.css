@@ -18,3 +18,8 @@ body{overflow-x:hidden}
 @media(max-width:850px){.scroll-line,.scroll-hint{display:none}.profile-wrap{position:relative;inset:auto;width:330px;height:330px;margin:auto}.profile-ring{width:300px;height:300px}.profile-photo{width:260px;height:260px}.hero-card{height:390px}}
 @media(max-width:560px){.profile-wrap{width:290px;height:290px}.profile-ring{width:265px;height:265px}.profile-photo{width:225px;height:225px}.hero-card{height:330px}.scroll-progress{height:2px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.profile-ring,.scroll-hint span{animation:none}.section,.reveal{transition:none}}
+
+.edu-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.edu-card{display:flex;gap:18px;align-items:flex-start;padding:26px;border:1px solid var(--line);border-radius:15px;background:linear-gradient(145deg,#0d121a,#0a0d13)}
+.edu-icon{font-size:25px}.edu-card h3{margin:0 0 8px;font-size:18px}.edu-card p{margin:0 0 8px;color:#c1cad7;font-size:13px}.edu-card span{color:var(--muted);font-size:12px}
+@media(max-width:850px){.edu-grid{grid-template-columns:1fr}}
